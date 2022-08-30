@@ -1,0 +1,3 @@
+b)Quais as principais aplicações do C++?
+
+Aplicações para o mercado financeiro, sistemas operacionais, jogos, editores de imagens, dispositivos embarcados, aplicativos comerciais, aplicativos para celulares e muitos outros segmentos.
