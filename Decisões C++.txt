@@ -1,0 +1,34 @@
+Sintaxe:
+
+-----------------IF--------------------------
+
+if (condição)
+{
+	Comandos;
+}
+else
+{
+	Comandos;
+}
+
+--------------SWITCH------------------------
+
+ Switch (variável)
+{
+	Case constante1:
+	Comandos;
+	Break;
+
+Case constante2:
+	Comandos;
+	Break;
+
+Case constante3:
+	Comandos;
+	Break;
+
+default
+	comandos;
+}
+
+Conclusão: A linguagem de programação C++ ela necessariamente necessita de ";" e de combinações entra parenteses e chaves para fazer funcionar o código.
