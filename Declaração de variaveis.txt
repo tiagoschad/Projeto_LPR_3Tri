@@ -1,0 +1,68 @@
+Variáveis:
+
+int main() {
+
+int inteiro = 0; // variável tipo inteiro.
+float pontoflutuante = 3.14; // variável tipo ponto flutuante com precisão simples.
+double pontoflutuante2 = 3.1415; // variável tipo ponto flutuante com precisão dupla.
+char caracter = 'a'; // variável tipo caracter.
+bool logico; // variável tipo lógico.
+
+cout << inteiro << " - o número inteiro" << endl;
+cout << pontoflutuante << " - o número em ponto flutuante" << endl;
+cout << pontoflutuante2 << " - o número em ponto flutuante com dupla precisão" << endl;
+cout << caracter << " - o caracter" << endl;
+
+system("pause");
+
+}
+---------------------------------------------------------------------------------------------------------------------
+
+Constante:
+const int i = 500; // uma constante inteira que armazena o número 500.
+const double pi = 3.1415; // uma constante real que armazena o valor aproximado de pi.
+A sintaxe para const é:
+
+const [tipo] [nome] = [valor];
+
+--------------------------------------------------------------------------------------------------------------
+
+Atribuição de valores:
+int inteiro;
+cout << inteiro << " - teste";
+// ERRO. Não irá compilar pois não foi atribuído valor para a variável.
+
+--------------------------------------------------------------------------------------------------------------------
+
+Alterando o valor de uma variável:
+int inteiro = 0;
+cout << inteiro << " - primeiro valor" << endl;
+inteiro = 5;
+cout << inteiro << " - segundo valor" << endl;
+
+system("pause");
+-----------------------------------------------------------------------------
+
+Globais e locais:
+const double raizdedois = 1.4142;
+// as duas constantes definidas até aqui são globais.
+char letra = 'b';
+// esta variável é global.
+
+void imprime() {
+ cout << raizdedois << " " << letra << endl;
+}
+
+int main() {
+ int j = 10;
+ // esta variável é local.
+ const int cinco = 5;
+ // esta constante é local.
+ cout << letra << " " << j << " " << cinco << " " << raizdedois << endl;
+ imprime(); // chamada da função imprime.
+ system("pause");
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Palavras reservadas C++:
+asm, auto, break, case, catch, char, class, const, continue, default, delete, do, double, else, enum, extern, float, for, friend, goto, if, inline, int, long, new, operator, private, protected, public, register, return, short, signed, sizeof, static, struct, switch, template, this, throw, try, typedef, union, unsigned, virtual, void, volatile, wchar_t, while.
