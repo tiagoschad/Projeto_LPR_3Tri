@@ -1,0 +1,84 @@
+Cabeçalho:
+Escreva seu próprio código C / C++ e salve o arquivo com a extensão “.h”.
+Inclua seu arquivo de cabeçalho com “#include” em seu programa C / C++ .
+Arquivos de cabeçalho padrão e seus usos: 
+ 
+
+#include <stdio.h>: É usado para realizar operações de entrada e saída usando as funções scanf() e printf() .
+#include <iostream>: É usado como um fluxo de entrada e saída usando cin e cout.
+#include <string.h>: É usado para realizar várias funcionalidades relacionadas à manipulação de strings como strlen() , strcmp() , strcpy() , size(), etc.
+#include <math.h>: é usado para realizar operações matemáticas como sqrt() , log2() , pow() , etc.
+#include <iomanip.h>: É usado para acessar as funções set() e setprecision() para limitar as casas decimais nas variáveis.
+#include <signal.h>: É usado para realizar funções de tratamento de sinais como signal() e raise() .
+#include <stdarg.h>: É usado para realizar funções de argumento padrão como va_start() e va_arg() . Também é usado para indicar o início da lista de argumentos de comprimento variável e buscar os argumentos da lista de argumentos de comprimento variável no programa, respectivamente.
+#include <errno.h>: é usado para realizar operações de tratamento de erros como errno() , strerror() , perror() , etc.
+#include <fstream.h>: É usado para controlar os dados a serem lidos de um arquivo como uma entrada e os dados a serem gravados no arquivo como uma saída.
+#include <time.h>: É usado para executar funções relacionadas a date() e time() como setdate() e getdate() . Também é usado para modificar a data do sistema e obter o tempo da CPU, respectivamente.
+#include <float.h>: contém um conjunto de várias constantes dependentes da plataforma relacionadas aos valores de ponto flutuante. Essas constantes são propostas pela ANSI C. Elas permitem tornar os programas mais portáteis. Alguns exemplos de constantes incluídas neste arquivo de cabeçalho são- e (expoente), b (base / raiz), etc.
+#include <limits.h>: Determina várias propriedades dos vários tipos de variáveis. As macros definidas neste cabeçalho limitam os valores de vários tipos de variáveis ​​como char , int e long . Esses limites especificam que uma variável não pode armazenar nenhum valor além desses limites, por exemplo, um caractere sem sinal pode armazenar até um valor máximo de 255 .
+
+Estrutura de repetição:
+FOR
+      Sintaxe:
+Variável de inicialização: comando de atribuição que inicia uma variável que faz o controle do laço.
+
+Condição: expressão usada que determinará o final do laço.
+
+Incremento: define a variável de controle e muda a cada passada no laço.
+
+Exemplo
+#include<conio.h>
+#include<stdio.h>
+
+int main()
+{
+    int i;
+    for (i=0; i<10; i++)
+    {
+       printf("%d\n", i);
+    }
+getch();
+}
+
+WHILE	
+     Sintaxe:
+Condição: Pode ser qualquer expressão valida ou até quando a verdadeira.
+
+Comando: pode ser um bloco de comando vazio ou de repetição definido por um termino.
+
+Sintaxe
+While (Condição)
+{
+	Comandos;
+}
+
+Término:
+#include<conio.h>
+#include<stdio.h>
+
+int main()
+{
+    int i=0;
+    while(i < 10)
+    {
+       i = i+1;
+       printf ("%d\n", i);
+    }
+getch ();
+}
+
+Término definido pelo usuário:
+#include<conio.h>
+#include<stdio.h>
+
+int main()
+{
+    char ch;
+    ch = 0;
+
+    while (ch !='A')
+    {
+       ch = getche();
+    }
+getch();
+}
